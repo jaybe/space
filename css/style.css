@@ -1,0 +1,91 @@
+
+
+.playground {
+	border:1px solid black;
+	left:2px;
+	top:2px;
+	width: 799px;
+	height: 400px;
+}
+
+.score {
+	border:1px solid black;
+	left:2px;
+	top:402px;
+	width: 799px;
+	height: 40px;
+}
+.shot {	
+		position: absolute;
+		display: block;
+		background: black;
+		width:  4px;
+		height: 10px;
+}
+.ishot {	
+		position: absolute;
+		display: block;
+		background: orange;
+		width:  4px;
+		height: 10px;
+}
+.ship {
+		position: absolute;
+		display: block;
+		background-image:url('../images/ship.png');
+		background-repeat:no-repeat;		
+		top: 375px;
+		left: 30px;
+		width:  30px;
+		height: 30px;
+}
+.explode {
+		position: absolute;
+		display: block;
+		background-image:url('../images/explode.png');
+		background-repeat:no-repeat;
+		top: 375px;
+		left: 30px;
+		width:  30px;
+		height: 30px;
+}
+
+.fielBG {
+	position: absolute;
+	display: block;
+	top: 30px;
+	left: 12px;
+
+}
+
+.invader {
+		position: absolute;
+		display: block;
+		background-image:url('../images/invader.png');
+		background-repeat:no-repeat;			
+		width:  30px;
+		height: 30px;
+}
+
+.bonus {
+		position: absolute;
+		display: block;
+		width:  15px;
+		height: 15px;
+}
+
+.up {
+	background-image: url( '../images/up.png');
+	background-repeat:no-repeat;
+}
+
+.live {
+	background-image: url( '../images/herz.png');
+	background-repeat:no-repeat;	
+	/* name: "live"; */
+}
+.plus{
+	background-image: url( '../images/plus.png');
+	background-repeat:no-repeat;
+
+}
