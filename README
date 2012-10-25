@@ -1,0 +1,14 @@
+Space Invaders
+---------------
+
+The Classic video game rewitten in html and Javascript.
+
+Do not change the index.html it was generated with my all_in_on.pl from the other files.
+
+TODO:
+
+	* More information to the README
+	* More variation for the invaders
+	* HIGHTSCORE
+	*
+	*
