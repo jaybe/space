@@ -417,17 +417,13 @@ function movePlayer () {
   movePlayer.delay(movespeed);
 }
 
- function checkColision(a,b,c) {
+ function checkColision(a,b) {
 	var al =  parseInt(a.getCoordinates().left);
 	var at =  parseInt(a.getCoordinates().top);
 	var ah =  parseInt(a.getCoordinates().height);
 	var aw =  parseInt(a.getCoordinates().width);
 	var bl =  parseInt(b.getCoordinates().left);
 	var bt =  parseInt(b.getCoordinates().top);
-	if( c ) {
-		bl +=  parseInt(c.getCoordinates().left);
-		bt +=  parseInt(c.getCoordinates().top);
-	}
 	var bh =  parseInt(b.getCoordinates().height);
 	var bw =  parseInt(b.getCoordinates().width);
 	if( 
